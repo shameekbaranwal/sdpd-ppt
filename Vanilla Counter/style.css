@@ -22,6 +22,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	margin-top: 60px;
+	padding-bottom: 40px;
+	border-radius: 8px;
+	background-color: #292929;
+	/* border-bottom: powderblue 2px solid; */
 }
 
 .counter p {
