@@ -1,14 +1,14 @@
 const textField = document.querySelector('.counter p');
 const bumpButton = document.querySelector('.counter button');
 
-let value = 0;
-textField.innerHTML = value;
+let count = 0;
+textField.innerHTML = count;
 
 // event listener
 bumpButton.addEventListener('click', () => {
 	// update the value in the model
-	value++;
+	count++;
 
 	// update the view to reflect the model
-	textField.innerHTML = value;
+	textField.innerHTML = count;
 });

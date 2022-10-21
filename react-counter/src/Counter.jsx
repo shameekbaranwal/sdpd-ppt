@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
 export default function Counter() {
-	const [value, setValue] = useState(0);
+	const [count, setCount] = useState(0);
 
-	const handleClick = () => setValue(value + 1);
+	const handleClick = () => setCount(count + 1);
 
 	return (
 		<div class='counter'>
-			<p>{value}</p>
+			<p>{count}</p>
 			<button onClick={handleClick}>bump</button>
 		</div>
 	);
